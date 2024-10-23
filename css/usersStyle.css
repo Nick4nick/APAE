@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho começo*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #438967;
+    padding: 10px;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.apae {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.icons img {
+    width: 35px;
+    margin-left: 20px;
+}
+
+    /* Acesso para as outras páginas */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+    right: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .group-icon {
+    cursor: pointer;
+}
+
+/* Estilos para os usuários */
+h2 {
+    font-size: 30px;
+    color: #1c6626;
+    margin-bottom: 25px;
+    padding-left: 55px;
+}
+
+.container-usuarios {
+    margin: 20px;
+}
+
+.section {
+    margin-left: 150px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #438967;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.user-list {
+    margin-left: 30px;
+}
+
+.user-list .user-item {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+}

@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho começo*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #438967;
+    padding: 10px;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.apae {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.icons img {
+    width: 35px;
+    margin-left: 20px;
+}
+
+    /* Acesso para as outras páginas */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+    right: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .group-icon {
+    cursor: pointer;
+}
+
+/* Estilos da página de estudantes */
+.content {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.content h1 {
+    font-size: 30px;
+    color: #1c6626;
+    margin-bottom: 25px;
+    padding-left: 55px;
+}
+
+/* Container dos Cards */
+.card-container {
+    display: flex;
+    justify-content: space-between; 
+    padding-inline: 20px;
+}
+
+/* Estilos dos Cartões dos Estudantes */
+.professional-card {
+    background-color: #bbe2b6;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.professional-image {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.professional-image img {
+    width: 80%;
+    border-radius: 8px;
+}
+
+.professional-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #545454;
+    margin: 15px;
+}
