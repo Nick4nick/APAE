@@ -1,0 +1,14 @@
+{
+  "name": "apage",
+  "version": "1.0.0",
+  "description": "Site de agendamentos para a Apae",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
