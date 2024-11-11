@@ -12,8 +12,10 @@
     background-color: #438967;
     padding: 10px;
     color: white;
-    position: relative;
-    z-index: 1;
+    position: fixed; /* Mantém o cabeçalho fixo */
+    width: 100%; /* Largura total */
+    height: 50px; /* Altura do cabeçalho */
+    z-index: 10; /* Certifique-se de que o cabeçalho fique acima de outros elementos */
 }
 
 .apae {
@@ -74,7 +76,7 @@
 /* Cabeçalho fim*/
 /* Faixa lateral */
 .faixa-lateral {
-    position: absolute;
+    position: fixed;
     top: 50px;
     left: 0;
     width: 300px;
@@ -82,3 +84,4 @@
     background-color: #bbe2b6;
     z-index: 0;
 }
+/* Calendario */
